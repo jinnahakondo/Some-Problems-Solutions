@@ -1,9 +1,9 @@
-//  1 
-const maxNumber = (arr) => {
-    return Math.max(...arr);
+// function 1 
+const maxNumber = (numbers) => {
+    return Math.max(...numbers);
 }
 
-// 2 
+//function 2 
 const maxNumber2 = (numbers) => {
     let maxNumber = 0;
     for (const n of numbers) {
